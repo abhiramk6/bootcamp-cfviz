@@ -1,29 +1,51 @@
-
-body{
+body {
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    padding: 5px;
+    text-align: right;
+}
+
+#navbar {
+    margin-right: 10%;
+}
+
+main {
+    padding: 20px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
 }
 
 footer {
-    position:fixed;bottom:0;left:0;right:0;
-    padding: 3px;
-    background-color:#dadce0;
+    position: fixed;
     bottom: 0;
-
-  }
-
-#navbar{
-    text-align:right;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    background-color: #dadce0;
 }
 
+footer p {
+    margin: 5px;
+}
 
-  .image-row {
-    display: flex;
-    padding-left: 40%;
-    padding-right: 50%;
-    /* text-align: center; */
-    
-   /* justify-content: space-between;  this will add equal space between each image */
-  }
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border: radius 4px;
+    font-size: 14px;
 
-
- 
+}
