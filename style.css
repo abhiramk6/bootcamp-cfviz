@@ -1,3 +1,29 @@
-body {
-    background-color : aqua;
+
+body{
+    text-align: center;
 }
+
+footer {
+    position:fixed;bottom:0;left:0;right:0;
+    padding: 3px;
+    background-color:#dadce0;
+    bottom: 0;
+
+  }
+
+#navbar{
+    text-align:right;
+}
+
+
+  .image-row {
+    display: flex;
+    padding-left: 40%;
+    padding-right: 50%;
+    /* text-align: center; */
+    
+   /* justify-content: space-between;  this will add equal space between each image */
+  }
+
+
+ 
